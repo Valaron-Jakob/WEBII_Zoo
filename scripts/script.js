@@ -14,3 +14,7 @@
 // // d. A text usable on different webpages
 // document.getElementById('animal-desc').innerHTML = `<p>Here in this zoo, we feed our animals with wild living squirrels 
 //     most of the time. Mice and rats are also a good alternative.</p>`
+
+// Display three different animal names in a list
+const ANIMAL_NAMES = ['Lion', 'Tiger', 'Snake']
+const RAND_ANIMAL = ANIMAL_NAMES[Math.floor(Math.random() * ANIMAL_NAMES.length)]
