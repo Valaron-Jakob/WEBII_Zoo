@@ -159,21 +159,13 @@ footer ul {
     width: 100%;
 }
 
-.gal-elem .overlay {
-    transform: translateY(-30%);
-    opacity: 0;
-    transition: .5s ease;
-    text-align: center;
-
-    background-color: #17122b;
-    border: 5px solid #17122b;
+.animal-button {
+    padding: 10px;
+    margin: 10px;
     border-radius: 10px;
+    background-color: #564c6d;
 }
 
-.gal-elem:hover .overlay {
-    opacity: 1;
-}
-
-.gal-elem:hover img {
-    opacity: 0.3;
+.animal-button:hover {
+    background-color: #3e3652;
 }
